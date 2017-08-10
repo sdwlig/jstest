@@ -1,0 +1,20 @@
+{
+  "name": "jtest",
+  "version": "1.0.0",
+  "description": "Test Javascript code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen D. Williams sdw@lig.net",
+  "bin": {
+    "sumacc": "./index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cli": "^1.0.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  }
+}
